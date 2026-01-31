@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="400" height="400" role="img" aria-label="Donut illustration">
+  <defs>
+    <radialGradient id="g" cx="50%" cy="40%">
+      <stop offset="0%" stop-color="#ffd8a6"/>
+      <stop offset="100%" stop-color="#ffb66b"/>
+    </radialGradient>
+  </defs>
+  <circle cx="100" cy="100" r="80" fill="url(#g)" />
+  <circle cx="100" cy="100" r="36" fill="#fff" />
+  <!-- frosting -->
+  <path d="M28,96 C36,70 58,62 78,70 C92,75 108,75 122,70 C142,62 164,70 172,96 C174,110 166,122 152,128 C134,136 118,132 100,132 C82,132 66,136 48,128 C34,122 26,110 28,96 Z" fill="#ff6fa3" opacity="0.95"/>
+  <!-- sprinkles -->
+  <rect x="86" y="64" width="6" height="12" rx="3" fill="#fff" transform="rotate(-25 89 70)"/>
+  <rect x="120" y="86" width="6" height="12" rx="3" fill="#ffd233" transform="rotate(20 123 92)"/>
+  <rect x="72" y="110" width="6" height="12" rx="3" fill="#9af7ff" transform="rotate(10 75 116)"/>
+  <rect x="140" y="64" width="6" height="12" rx="3" fill="#d3a8ff" transform="rotate(-10 143 70)"/>
+</svg>
